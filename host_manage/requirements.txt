@@ -1,0 +1,5 @@
+Django==3.2
+djangorestframework
+celery==5.2.7
+redis
+django-celery-beat
