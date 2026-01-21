@@ -10,9 +10,9 @@ python manage.py migrate
 python manage.py runserver
 
 
-# 初始化定时任务
+# 启动定时任务（窗口）
 celery -A host_manager worker -l info
 
 
-# 启动定时任务
+# 启动定时任务（窗口）
 celery -A host_manager beat -l info
